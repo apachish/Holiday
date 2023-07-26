@@ -1,0 +1,25 @@
+{
+  "name": "balea/holiday",
+  "description": "package get holiday in iran",
+  "authors": [
+    {
+      "name": "shahriar pahlevansadegh",
+      "email": "info@apachish.ir"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Balea\\Holiday\\": "src/"
+    }
+  },
+  "require": {
+    "imangazaliev/didom": "v1.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Balea\\Holiday\\HolidayServiceProvider"
+      ]
+    }
+  }
+}
